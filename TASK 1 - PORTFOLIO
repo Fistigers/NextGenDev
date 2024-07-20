@@ -1,0 +1,236 @@
+//////////////////////////////////////// TASK 1////////////////////////////
+
+//////////HTML CODE /////////////////
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surabhi Rathore - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Surabhi Rathore</h1>
+            <p>Student of B.Tech CSE</p>
+            <nav>
+                <ul>
+                    <li><a href="home">Home</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="skills">Skills</a></li>
+                    <li><a href="projects">Projects</a></li>
+                    <li><a href="resume">Resume</a></li>
+                    <li><a href="contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<section id="Home" class="section">
+        <div class="content">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Hello! I'm Surabhi Rathore, a B.Tech CSE student passionate about technology and innovation. </p>
+        </div>
+    </section>
+
+    <section id="About" class="section">
+        <div class="content">
+            <h2>About Me</h2>
+            
+            <p>I am currently pursuing a Bachelor's degree in Computer Science and Engineering at XYZ University. I have a keen interest in software development, machine learning, and web technologies. I love solving complex problems and building innovative solutions.</p>
+        </div>
+    </section>
+
+    <section id="Skills" class="section">
+        <div class="content">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming Languages: Python, Java, C++ , C </li>
+                <li>Web Development: HTML, CSS, JavaScript, React</li>
+                <li>Machine Learning: scikit-learn, TensorFlow</li>
+                <li>Databases: MySQL, MongoDB</li>
+                <li>Tools: Git, Docker, Jenkins</li> 
+            </ul>
+        </div>
+    </section>
+
+<section id="Projects" class="section">
+        <div class="Content">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Personal Portfolio Website</h3>
+                
+                <p>Developed a personal portfolio website using HTML, CSS, and JavaScript to showcase my projects and skills.</p>
+            </div>
+            <div class="project">
+                <h3>Machine Learning Model for Predicting House Prices</h3>
+                
+                <p>Created a machine learning model to predict house prices using Python and scikit-learn.</p>
+            </div>
+            
+            <div class="project">
+                <h3>Chatbot for Customer Support</h3>
+                
+                <p>Developed a chatbot using Python and NLP techniques to assist customers with common queries and issues.</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <section id="resume" class="section">
+        <div class="content">
+            <h2>Resume</h2>
+            <p><a href="resume.pdf" download>Download my Resume (PDF)</a></p>
+        </div>
+    </section>
+
+  <section id="contact" class="section">
+        <div class="content">
+            <h2>Contact</h2>
+            <p>Email: surabhi.rathore@example.com</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/surabhi-rathore/">Surabhi Rathore</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Surabhi Rathore. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+////////////// CSS CODE /////////////////
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 0.5em 0;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1em 0 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    padding: 4em 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.section:nth-child(odd) {
+    background-color: #e2e2e2;
+}
+
+.section .content {
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+.project {
+    margin: 2em 0;
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 1em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #fff;
+    margin: 0.5em 0;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    width: 100%;
+    padding: 34px;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
